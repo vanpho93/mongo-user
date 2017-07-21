@@ -1,0 +1,19 @@
+1. class User
+    - get Schema from mongoose
+    - assign mongoose Promise to global Promise
+    - create UserSchema from Schema
+    - create User class from mongoose.model
+
+2. test_helper
+    - mongoose.connect to mongodb://localhost/unique_db_name
+    - assign event handler to connection
+    - remove all collection before each test
+
+3. create test file
+    - get assert function
+    - use describe();
+    - use it('sth', done => {});
+    - call done when finished
+    - isNew prop
+4. package.json file
+    - use mocha
